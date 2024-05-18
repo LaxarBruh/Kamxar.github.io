@@ -1,0 +1,129 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    background-color: #121212;
+    color: #fff;
+.hero {
+    padding: 100px 0; /* Adjust as needed */
+}
+
+.content {
+    padding-top: 100px; /* Add padding to the top of content to account for fixed header */
+}
+
+header {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+header .hero h1 {
+    font-size: 3.5em;
+    margin: 0.2em 0;
+}
+
+header .hero p {
+    font-size: 1.5em;
+    margin: 0.5em 0 1em;
+}
+
+header .spotify-link {
+    margin-top: 20px;
+}
+
+header .spotify-link img {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header .spotify-link a {
+    font-size: 1.5em;
+    color: #1DB954;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+header .spotify-link a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 60px 0;
+    background-color: #121212;
+}
+
+.content {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.spotify-link img {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.spotify-link a {
+    font-size: 1.5em;
+    color: #1DB954;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.spotify-link a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
